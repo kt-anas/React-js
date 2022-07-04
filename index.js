@@ -55,23 +55,44 @@
 // )
   
 
-// function call
-function tempro(){
+// // function call
+// function tempro(){
+//     return (
+//         <div>
+//             <h1>
+//                 About React
+//             </h1>
+//             <ul>
+//                 <li>
+//                   React  was first about React
+//                 </li>
+//                 <li>
+//                     React Was originally created by Jordan Walk
+//                 </li>
+//             </ul>
+//         </div>
+//     )
+// }
+
+// ReactDOM.render(tempro(),document.getElementById("root"))
+
+
+
+
+
+function ReactName() {
     return (
         <div>
             <h1>
-                About React
+                It will work
             </h1>
-            <ul>
-                <li>
-                  React  was first about React
-                </li>
-                <li>
-                    React Was originally created by Jordan Walk
-                </li>
-            </ul>
+            <p>
+                React is a popular library, so need to learn how it work
+            </p>
+            <footer>
+                <small> 2020 anas frond developer. All right reserved.</small>
+            </footer>
         </div>
     )
 }
-
-ReactDOM.render(tempro(),document.getElementById("root"))
+ReactDOM.render(<ReactName/>,document.getElementById("root"))
