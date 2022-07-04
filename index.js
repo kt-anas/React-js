@@ -59,7 +59,7 @@ function tempro(){
     return (
         <div>
             <h1>
-                About React
+                About React js is fram work
             </h1>
             <ul>
                 <li>
