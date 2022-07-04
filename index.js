@@ -52,9 +52,10 @@
 // ReactDOM.render(
 //     page,
 //     document.getElementById("root")
-
 // )
+  
 
+// function call
 function tempro(){
     return (
         <div>
@@ -63,10 +64,10 @@ function tempro(){
             </h1>
             <ul>
                 <li>
-                    was first about React
+                  React  was first about React
                 </li>
                 <li>
-                    Was originally created by Jordan Walk
+                    React Was originally created by Jordan Walk
                 </li>
             </ul>
         </div>
