@@ -79,20 +79,52 @@
 
 
 
+function Header() {
+    return (
+       <header>
+        <nav  className="nav">
+            <ul className="nav-items">
+                <li>
+                        pricing
+                </li> 
 
+                <li>
+                              About
+                </li>
+                <li>
+                    Contect
+                </li>
+            </ul>
+        </nav>
+       </header>
+    )
+}
 function ReactName() {
     return (
         <div>
             <h1>
                 It will work
-            </h1>
-            <p>
-                React is a popular library, so need to learn how it work
-            </p>
+            </h1>    
             <footer>
-                <small> 2020 anas frond developer. All right reserved.</small>
+                <small> 2020 anas front end developer. All right reserved.</small>
             </footer>
         </div>
     )
 }
-ReactDOM.render(<ReactName/>,document.getElementById("root"))
+function ParName() {
+    return (
+        <p>
+             React is a popular library, so need to learn how it work
+        </p>
+    )
+}
+function PageName() {
+    return (
+        <div>
+            <Header/>
+             <ParName/>
+            <ReactName/>
+        </div>
+    )
+}
+ReactDOM.render(<PageName/>,document.getElementById("root"))
