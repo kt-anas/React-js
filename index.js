@@ -9,11 +9,9 @@
 //         <div>
 //             <h1> React js king </h1>
 //             <h>hello ther js is somthing in world</h>
-//         </div>
-        
-         
+//         </div>    
 //     )
-// }
+//  }
 // ReactDOM.render(
 //    <div>
 //       <MainContnt/>
@@ -34,7 +32,6 @@
 // h1.textContent = "This is an imperative way to program"
 // h1.className  = "header"
 //  console.log(h1)
-
 // const element = <h1 className = "header">This is JSX</h1>
 //     console.log(element)
 // ReactDOM.render(element, document.getElementById("root"))
@@ -58,4 +55,22 @@
 
 // )
 
+function tempro(){
+    return (
+        <div>
+            <h1>
+                About React
+            </h1>
+            <ul>
+                <li>
+                    was first about React
+                </li>
+                <li>
+                    Was originally created by Jordan Walk
+                </li>
+            </ul>
+        </div>
+    )
+}
 
+ReactDOM.render(tempro(),document.getElementById("root"))
