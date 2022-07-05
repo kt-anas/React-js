@@ -1,4 +1,6 @@
+
 // first line React js
+
 // ReactDOM .render 
 // ReactDOM.render(<h1>Hello everyone hello world </h1>, document.getElementById("root"))
 // ReactDOM.render(<ul><li>thing 1</li><li>thing2</li></ul>,document.getElementById("root"))
@@ -80,18 +82,48 @@
 
 
 
+import Header from "./Header"
+
 function ReactName() {
     return (
         <div>
-            <h1>It will work About React js is fram work main
+ 
+
+
+            <h1>
+                It will work hello ther 
+            </h1>    
+ 
+            <h1>
+            It will work About React js is fram work main
             </h1>
+
+
             <p>
                 React is a popular library, so need to learn how it work
-            </p>
+           
+           </p>
+ 
             <footer>
-                <small> 2020 anas frond developer. All right reserved.</small>
+                <small> 2020 anas front end developer. All right reserved.</small>
             </footer>
         </div>
     )
 }
-ReactDOM.render(<ReactName/>,document.getElementById("root"))
+function ParName() {
+    return (
+        <p>
+             React is a popular library, so need to learn how it work
+        </p>
+    )
+}
+function PageName() {
+    return (
+        <div>
+            <Header/>
+             <ParName/>
+            <ReactName/>
+        </div>
+    )
+}
+ReactDOM.render(<PageName/>,document.getElementById("root"))
