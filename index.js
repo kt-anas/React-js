@@ -1,4 +1,6 @@
+
 // first line React js
+
 // ReactDOM .render 
 // ReactDOM.render(<h1>Hello everyone hello world </h1>, document.getElementById("root"))
 // ReactDOM.render(<ul><li>thing 1</li><li>thing2</li></ul>,document.getElementById("root"))
@@ -79,26 +81,9 @@
 
 
 
-function Header() {
-    return (
-       <header>
-        <nav  className="nav">
-            <ul className="nav-items">
-                <li>
-                        pricing
-                </li> 
 
-                <li>
-                              About
-                </li>
-                <li>
-                    Contect
-                </li>
-            </ul>
-        </nav>
-       </header>
-    )
-}
+import Header from "./Header"
+
 function ReactName() {
     return (
         <div>
